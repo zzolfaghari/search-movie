@@ -1,5 +1,5 @@
 import {combineReducers} from 'redux';
-import { createReducer, createAsyncReducer } from '../common/redux.helpers';
+import { createReducer, createAsyncReducer } from '../common/redux.helper';
 import { keys as movieActionKeys } from './movie-browser.actions';
 
 // Placeholder reducer for our movie modal
