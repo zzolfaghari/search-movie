@@ -1,3 +1,4 @@
+
 import React from 'react';
 import {connect} from 'react-redux';
 import {Container, Row, Col} from 'react-bootstrap';
@@ -50,7 +51,7 @@ class MovieBrowser extends React.Component {
         <AppBar title='Movie Browser' />
         <Container>
           <Row>
-            <p>Search will go here</p>
+            <p></p>
           </Row>
           <Row>
             <MovieList movies={movies} isLoading={topMovies.isLoading} />
